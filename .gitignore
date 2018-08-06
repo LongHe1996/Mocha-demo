@@ -1,23 +1,17 @@
-# Compiled class file
-*.class
+# IDE
+.idea
+.project
 
-# Log file
-*.log
 
-# BlueJ files
-*.ctxt
+# npm
+node_modules
+npm-debug.log
+yarn-error.log
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# folder
+dist
+# 自动更新目录，不要修改此目录里面的内容
+src/app
+.yo-rc.json
+package-lock.json
+.vscode
